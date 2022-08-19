@@ -1,1 +1,62 @@
-/* CSS file */
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+/* Variables */
+:root {
+    --forest-green: #0c6046;
+    --plum: #874356;
+    --mauve: #c65d7b;
+    --salmon: #f68989;
+}
+
+/* Globals */
+.App {
+    font-family: "Poppins";
+    font-size: 16px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+}
+
+.home {
+    min-height: 800px;
+    padding: 2rem;
+}
+
+.grid {
+    display: grid;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    column-gap: 1rem;
+}
+
+.row-1-2 {
+    grid-template-columns: 33% 66%;
+}
+
+.col {
+    height: 100%;
+    width: calc(100% - 1rem);
+}
+
+.rounded {
+    border-radius: 15px;
+}
+
+.img-profile {
+    padding: 0.5rem;
+    width: 80%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.center-children {
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+.center-parent {
+    align-self: center;
+}
